@@ -1,0 +1,92 @@
+<!-- 
+Made by Isabel Hughes, Aidan Ryan, Athena Kiriakoulis, and Fenella Lachica
+-->
+
+
+<html>
+<head class = "hea">
+	<h1><center>Welcome To The Personality Test!</center></h1>
+	<h2><center>Answer the questions to reveal your personality based mini-game!</center></h2>
+</head>
+<body>
+	<link rel="stylesheet" href="css1.css">
+    <script src="js1.js"></script>
+
+	<h3>Q1: What is your Favorite Color?</h3>
+	<div class = "big" id = "q1">
+		<div onClick = "dissapear1('red', 5)" class = "d color" style = "background-color:red"></div>
+		<div onClick = "dissapear1('orange', 7)" class = "d color" style = "background-color:orange"></div>
+		<div onClick = "dissapear1('yellow', 6)" class = "d color" style = "background-color:yellow"></div>
+		<div onClick = "dissapear1('green', 4)" class = "d color" style = "background-color:green"></div>
+		<div onClick = "dissapear1('blue', 1)" class = "d color" style = "background-color:blue"> </div>
+		<div onClick = "dissapear1('purple', 2)" class = "d color" style = "background-color:purple"> </div>
+		<div onClick = "dissapear1('pink', 3)" class = "d color" style = "background-color:pink"></div>
+	</div>
+	<p id = "q1p"></p>
+	
+	<h3>Q2: What is your Favorite Season?</h3>
+	<div class = "big" id = "q2">
+		<div onClick = "dissapear2('Photos/fall.jpg', 'fall', 1)" class = "d i" style = "background-image:url('Photos/fall.jpg')"></div>
+		<div onClick = "dissapear2('Photos/spring.jpg', 'spring', 3)" class = "d i" style = "background-image:url('Photos/spring.jpg')"></div>
+		<div onClick = "dissapear2('Photos/summer.jpg', 'summer', 4)" class = "d i" style = "background-image:url('Photos/summer.jpg')"></div>
+		<div onClick = "dissapear2('Photos/winter.jpg', 'winter', 2)" class = "d i" style = "background-image:url('Photos/winter.jpg')"></div>
+	</div>
+	<p id = "q2p"></p>
+	
+	<h3>Q3: What is your Favorite Dessert?</h3>
+	<div class = "big" id = "q3">
+		<div onClick = "dissapear3('Photos/cookies.jpeg','Cookies', 5)" class = "d i" style = "background-image:url('Photos/cookies.jpeg')"></div>
+		<div onClick = "dissapear3('Photos/cake.jpg', 'Cake', 4)" class = "d i" style = "background-image:url('Photos/cake.jpg')"></div>
+		<div onClick = "dissapear3('Photos/candy.jpg', 'Candy', 2)" class = "d i" style = "background-image:url('Photos/candy.jpg')"></div>
+		<div onClick = "dissapear3('Photos/chocolate.jpg', 'Chocolate', 3)" class = "d i" style = "background-image:url('Photos/chocolate.jpg')"></div>
+		<div onClick = "dissapear3('Photos/pie.jpeg', 'Pie', 6)" class = "d i" style = "background-image:url('Photos/pie.jpeg')"></div>
+		<div onClick = "dissapear3('Photos/icecream.jpg', 'Ice Cream', 1)" class = "d i" style = "background-image:url('Photos/icecream.jpg')"></div>
+	</div>
+	<p id = "q3p"></p>
+	
+	<h3>Q4: What is your favorite sport?</h3>
+	<div class = "big" id = "q4">
+		<div onClick = "dissapear4('Photos/tennis.jpg', 'Tennis', 4)" class = "d i" style = "background-image:url('Photos/tennis.jpg')"></div>
+		<div onClick = "dissapear4('Photos/football.jpeg', 'Football', 5)" class = "d i" style = "background-image:url('Photos/football.jpeg')"></div>
+		<div onClick = "dissapear4('Photos/soccer.jpg', 'Soccer', 3)" class = "d i" style = "background-image:url('Photos/soccer.jpg')"></div>
+		<div onClick = "dissapear4('Photos/volleyball.png', 'Volleyball', 1)" class = "d i" style = "background-image:url('Photos/volleyball.png')"></div>
+		<div onClick = "dissapear4('Photos/basketball.jpg', 'Basketball', 2)" class = "d i" style = "background-image:url('Photos/basketball.jpg')"></div>
+	</div>
+	<p id = "q4p"></p>
+	
+	<h3>Q5: What is your biggest fear?</h3>
+	<div class = "big" id = "q5">
+		<div onClick = "dissapear5('Photos/spider.jpg','Spider',2)" class = "d i" style = "background-image:url('Photos/spider.jpg')"></div>
+		<div onClick = "dissapear5('Photos/height.jpg', 'Heights', 6)" class = "d i" style = "background-image:url('Photos/height.jpg')"></div>
+		<div onClick = "dissapear5('Photos/ring.jpg','Committment',4)" class = "d i" style = "background-image:url('Photos/ring.jpg')"></div>
+		<div onClick = "dissapear5('Photos/people.jpg','People', 3)" class = "d i" style = "background-image:url('Photos/people.jpg')"></div>
+		<div onClick = "dissapear5('Photos/clown.jpg','Clowns', 1)" class = "d i" style = "background-image:url('Photos/clown.jpg')"></div>
+		<div onClick = "dissapear5('Photos/war.jpg','War', 5)" class = "d i" style = "background-image:url('Photos/war.jpg')"></div>
+	</div>
+	<p id = "q5p"></p>
+	
+	<h3>Q6: What is your favorite pet?</h3>
+	<div class = "big" id = "q6">
+		<div onClick = "dissapear6('Photos/dog.jpg','Dog', 3)" class = "d i" style = "background-image:url('Photos/dog.jpg')"></div>
+		<div onClick = "dissapear6('Photos/cat.jpg','Cat', 5)" class = "d i" style = "background-image:url('Photos/cat.jpg')"></div>
+		<div onClick = "dissapear6('Photos/bird.jpg','Bird', 2)" class = "d i" style = "background-image:url('Photos/bird.jpg')"></div>
+		<div onClick = "dissapear6('Photos/guinea.jpg','Guinea Pig', 1)" class = "d i" style = "background-image:url('Photos/guinea.jpg')"></div>
+		<div onClick = "dissapear6('Photos/snake.jpg','Snake', 6)" class = "d i" style = "background-image:url('Photos/snake.jpg')"></div>
+		<div onClick = "dissapear6('Photos/lizard.jpg','Lizard', 4)" class = "d i" style = "background-image:url('Photos/lizard.jpg')"></div>
+	</div>
+	<p id = "q6p"></p>
+	
+	<h3>Q7: What is your favorite hobby?</h3>
+	<div class = "big" id = "q7">
+		<div onClick = "dissapear7('Photos/art.jpg','Art', 4)" class = "d i" style = "background-image:url('Photos/art.jpg')"></div>
+		<div onClick = "dissapear7('Photos/sport.jpg','Sports', 3)" class = "d i" style = "background-image:url('Photos/sport.jpg')"></div>
+		<div onClick = "dissapear7('Photos/reading.jpg','Reading', 5)" class = "d i" style = "background-image:url('Photos/reading.jpg')"></div>
+		<div onClick = "dissapear7('Photos/music.jpg','Music', 1)" class = "d i" style = "background-image:url('Photos/music.jpg')"></div>
+		<div onClick = "dissapear7('Photos/gaming.jpg','Gaming', 2)" class = "d i" style = "background-image:url('Photos/gaming.jpg')"></div>
+	</div>
+	<p id = "q7p"></p>
+	<br><br><br><br>
+	<center><a href="mazegame.html"><button>Click When Done!</button></a></center>
+	<br><br><br><br>
+</body>
+</html>

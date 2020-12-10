@@ -1,0 +1,69 @@
+body{
+		background-image: url("Photos/color.jpg");
+		background-size: 100% 100%;
+		font-family: "Lucida Console", Courier, monospace;
+	}
+	.d{
+		border: 5px solid black;
+		text-align: center;
+		margin: 15px;
+		display: inline-block;
+		width:150px;
+		height: 150px;
+		text-align: center;
+		display: flex;
+	}	
+	.d:hover{
+		height: 200px;
+		width: 200px;
+		position: static;
+	}
+	.i{
+		background-size: cover;
+		displaY: flex;
+	}
+	.big{
+		background-size: contain;
+		display: flex;
+	}
+	.hea{
+		font-weight: bold;
+		font-style: oblique;
+		color: turquoise;
+		display: flex;
+	}
+	h3{
+		color: pink;
+		background-color: grey;
+	}	
+	
+	#player{
+		width: 150px; 
+		height: 150px; 
+		position: absolute; 
+		top: 75px; 
+        left: 30px; 
+        background-size: cover;
+	}
+	#food{
+		width: 50px; 
+		height: 50px; 
+		position: absolute;
+        border-radius: 20px;
+        background-size: cover;
+	}
+	h2{
+		margin-left: 25px; 
+    }
+    #scores{
+        background-color: white;
+	}
+	#score{
+		font-size: 50px;
+	}
+	#Personality{
+		font-size: 50px;
+	}
+	#end{
+		font-size: 50px;
+	}
